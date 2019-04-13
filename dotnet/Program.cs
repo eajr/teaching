@@ -37,6 +37,7 @@ namespace dotnet
 
         if (action == "r") {
           Console.WriteLine("She's too fast for you and has clawed you to death from behind!");
+          player.Health = 0;
         }
         else if (action == "a") {
           int dice = rnd.Next(100);

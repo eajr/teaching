@@ -8,3 +8,9 @@ C# = Programming language
 
 C# is a static typed language
 JS is a dynamic typed language
+
+OO Programming Languages = Object Oriented
+
+C#, Java, Ruby = OO
+JS = Prototypal language
+F#, Haskell, LISP = Functional languages

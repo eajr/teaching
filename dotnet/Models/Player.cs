@@ -12,13 +12,32 @@ namespace dotnet.Models {
     public void AskAge()
     {
       Console.WriteLine("Whats your age?");
-      this.Age = Convert.ToInt16(Console.ReadLine());
+      Age = Convert.ToInt16(Console.ReadLine());
     }
     
     public void AskName()
     {
       Console.WriteLine("Whats your name?");
-      this.Name = Console.ReadLine();
+      Name = Console.ReadLine();
+    }
+      public void GreetName(string greeting)
+    {
+      Console.WriteLine(greeting + " " + Name);
+    }
+      public void AgeCompare()
+    {
+      if (Age >= 30)
+      {
+        Console.WriteLine("Holy shit you're old");
+      }
+      else if (Age >= 18)
+      {
+        Console.WriteLine("You're gettin old fucker");
+      }
+      else
+      {
+        Console.WriteLine("Get off my lawn.");
+      }
     }
   }
 }

@@ -6,7 +6,10 @@ namespace dotnet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Whats your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
+
         }
     }
 }
